@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <header>
+            <h2 class = "logo"> Team SAS </h2>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <button class="btnLogin-popup"> LogIn  </button>
+            </nav> 
+        </header>
+
+        <div class="wrapper">
+            <div class="form-box" id="log">
+                <h2> LogIn </h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required> <label> Email </label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required> <label> Password </label>
+                    </div>
+                    <div class="forget-pwd">
+                        <a href="#"> Forget Password ? </a>
+                    </div>
+                    <button type="submit" class="btn" onclick="document.location='homepage.html'"> LogIn </button>
+                    <div class="login-register">
+                        <p> Don't have an Account ? <a href="register.html" class="register-link"> Register </a></p>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+        
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
